@@ -45,9 +45,9 @@ func Check(url string, method string, w http.ResponseWriter, r *http.Request) {
 }
 
 func otpauth() {
-	accountSid := "ACd5be7935df490761a9fad4c236cf77bc"
-	authToken := "51527c971f02fd65003159597d342917"
-	urlStr := "https://api.twilio.com/2010-04-01/Accounts/ACd5be7935df490761a9fad4c236cf77bc/Messages.json"
+	accountSid := ""
+	authToken := ""
+	urlStr := ""
 
 	max := 9999
 	min := 1000
